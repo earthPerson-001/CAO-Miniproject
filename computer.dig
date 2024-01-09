@@ -5,10 +5,35 @@
   <visualElements>
     <visualElement>
       <elementName>instruction_decoder.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1920" y="-2800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
       <elementAttributes/>
-      <pos x="1940" y="-2780"/>
+      <pos x="1960" y="-2860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>Master Clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1980" y="-2860"/>
     </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="1960" y="-2860"/>
+      <p2 x="1980" y="-2860"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>
