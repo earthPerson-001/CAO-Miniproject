@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>ALU Output</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-220" y="-960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-320" y="-960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>70</int>
+        </entry>
+        <entry>
+          <string>RectHeight</string>
+          <int>100</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ALU</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>100</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1260" y="-1680"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-320" y="-960"/>
+      <p2 x="-220" y="-960"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
