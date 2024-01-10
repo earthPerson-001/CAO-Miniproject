@@ -11,16 +11,6 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="740" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
       <pos x="740" y="420"/>
     </visualElement>
     <visualElement>
@@ -29,10 +19,6 @@
         <entry>
           <string>wideShape</string>
           <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="1020" y="300"/>
@@ -61,21 +47,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>D0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="600" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>D1</string>
+          <string>q</string>
         </entry>
       </elementAttributes>
       <pos x="600" y="420"/>
@@ -89,7 +61,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>D3</string>
+          <string>D5</string>
         </entry>
       </elementAttributes>
       <pos x="600" y="500"/>
@@ -103,10 +75,10 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>T5</string>
+          <string>P1</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="380"/>
+      <pos x="620" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -117,7 +89,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>T4</string>
+          <string>T5</string>
         </entry>
       </elementAttributes>
       <pos x="600" y="540"/>
@@ -125,20 +97,12 @@
   </visualElements>
   <wires>
     <wire>
-      <p1 x="900" y="320"/>
-      <p2 x="1020" y="320"/>
-    </wire>
-    <wire>
       <p1 x="1100" y="320"/>
       <p2 x="1140" y="320"/>
     </wire>
     <wire>
       <p1 x="600" y="420"/>
       <p2 x="740" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="340"/>
-      <p2 x="740" y="340"/>
     </wire>
     <wire>
       <p1 x="960" y="340"/>
@@ -149,10 +113,6 @@
       <p2 x="740" y="500"/>
     </wire>
     <wire>
-      <p1 x="820" y="360"/>
-      <p2 x="860" y="360"/>
-    </wire>
-    <wire>
       <p1 x="820" y="520"/>
       <p2 x="960" y="520"/>
     </wire>
@@ -161,40 +121,24 @@
       <p2 x="900" y="440"/>
     </wire>
     <wire>
-      <p1 x="860" y="300"/>
-      <p2 x="1020" y="300"/>
-    </wire>
-    <wire>
       <p1 x="620" y="460"/>
       <p2 x="740" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="380"/>
-      <p2 x="620" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="380"/>
-      <p2 x="740" y="380"/>
     </wire>
     <wire>
       <p1 x="600" y="540"/>
       <p2 x="740" y="540"/>
     </wire>
     <wire>
+      <p1 x="900" y="300"/>
+      <p2 x="1020" y="300"/>
+    </wire>
+    <wire>
       <p1 x="960" y="340"/>
       <p2 x="960" y="520"/>
     </wire>
     <wire>
-      <p1 x="900" y="320"/>
+      <p1 x="900" y="300"/>
       <p2 x="900" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="380"/>
-      <p2 x="620" y="460"/>
-    </wire>
-    <wire>
-      <p1 x="860" y="300"/>
-      <p2 x="860" y="360"/>
     </wire>
   </wires>
   <measurementOrdering/>

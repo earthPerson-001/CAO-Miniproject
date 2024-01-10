@@ -12,7 +12,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>D4</string>
+          <string>I0</string>
         </entry>
       </elementAttributes>
       <pos x="600" y="200"/>
@@ -40,7 +40,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>D5</string>
+          <string>D7</string>
         </entry>
       </elementAttributes>
       <pos x="600" y="320"/>
@@ -65,6 +65,10 @@
         <entry>
           <string>wideShape</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="700" y="200"/>
@@ -93,6 +97,20 @@
       <elementName>Out</elementName>
       <elementAttributes/>
       <pos x="1100" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>I1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="220"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -131,6 +149,10 @@
     <wire>
       <p1 x="780" y="220"/>
       <p2 x="880" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="220"/>
+      <p2 x="700" y="220"/>
     </wire>
     <wire>
       <p1 x="880" y="220"/>
