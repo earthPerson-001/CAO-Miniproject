@@ -25,7 +25,12 @@
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>AC</string>
+        </entry>
+      </elementAttributes>
       <pos x="1140" y="320"/>
     </visualElement>
     <visualElement>

@@ -43,7 +43,12 @@
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>TR</string>
+        </entry>
+      </elementAttributes>
       <pos x="1000" y="320"/>
     </visualElement>
   </visualElements>

@@ -95,7 +95,12 @@
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>AR</string>
+        </entry>
+      </elementAttributes>
       <pos x="1100" y="260"/>
     </visualElement>
     <visualElement>

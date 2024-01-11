@@ -207,7 +207,12 @@
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Mem</string>
+        </entry>
+      </elementAttributes>
       <pos x="1040" y="340"/>
     </visualElement>
   </visualElements>
